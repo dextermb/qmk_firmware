@@ -1,2 +1,4 @@
 WPM_ENABLE = yes
+OS_DETECTION_ENABLE = yes
+LAYER_LOCK_ENABLE = yes
 SRC += lib/oled.c
