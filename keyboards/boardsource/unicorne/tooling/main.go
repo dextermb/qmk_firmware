@@ -56,9 +56,9 @@ var FIRST_HALF = [...]KeyboardHalf{
 	},
 	{
 		rowOne:   Row{"KC_ESCAPE", "KC_F1", "KC_F2", "KC_F3", "KC_F4", "KC_F5"},
-		rowTwo:   Row{"KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO"},
+		rowTwo:   Row{"KC_LSFT", "KC_NO", "KC_MEDIA_PREV_TRACK", "KC_MEDIA_PLAY_PAUSE", "KC_MEDIA_NEXT_TRACK", "KC_NO"},
 		rowThree: Row{"KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO"},
-		rowFour:  ShortRow{"QK_LLCK", "KC_NO", "KC_NO"},
+		rowFour:  ShortRow{"QK_LLCK", "KC_SPC", "KC_NO"},
 	},
 }
 
@@ -82,7 +82,7 @@ var SECOND_HALF = [...]KeyboardHalf{
 		rowFour:  ShortRow{"QK_BOOT", "EE_CLR", "KC_NO"},
 	},
 	{
-		rowOne:   Row{"KC_NO", "KC_MEDIA_PREV_TRACK", "KC_MEDIA_PLAY_PAUSE", "KC_MEDIA_NEXT_TRACK", "KC_NO", "KC_NO"},
+		rowOne:   Row{"KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO"},
 		rowTwo:   Row{"KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO"},
 		rowThree: Row{"KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO", "KC_NO"},
 		rowFour:  ShortRow{"KC_NO", "KC_NO", "KC_NO"},
